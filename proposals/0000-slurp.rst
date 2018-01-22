@@ -36,8 +36,8 @@ It would be great if a single set of policies, guarantees, features and
 technologies could cater for the needs of everyone. But the fact of the
 matter is that finding the best practices for building projects made up
 of independently developed packages in a language with early binding,
-static checking and rich types, **is still a matter of active
-research**.
+static checking and rich types, is still a matter of active
+research.
 
 At the same time, fragmentation of the community around segregated
 package ecosystems would be a terrible outcome for everybody. We'd end
@@ -129,7 +129,7 @@ Here are some additional features Stack provides:
 
 Nix has its own additional features. The point is, all of these use
 tool-specific downloadable resources (e.g. cabal-install's
-``01-index.tar``, Stack's ``lts-x.y.yaml``) *can be provided by
+``01-index.tar``, Stack's ``lts-x.y.yaml``), *but these resources can be provided by
 tool-specific servers and we can keep them entirely separate from this
 proposal*.
 
